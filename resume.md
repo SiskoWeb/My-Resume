@@ -95,7 +95,9 @@ Express | MongoDB | React | Express | Sass<span class="spacer"></span>
 <!-- Move this section above Technical Skills if you're a student/new grad -->
 ## Education
 
-**University of XXX** - Master of Science, Computer Science, GPA (only >= 3.7)<span class="spacer"></span>2023
+**YouCode** - Youcode Bootcamp Development web<span class="spacer"></span>2023
 
-**University of XXX** - Bachelors of Science, Computer Science, GPA (only >= 3.7)<span class="spacer"></span>2022
+**Self-learning** - ReactJs Developer<span class="spacer"></span>2023
+
+**University Cadi Ayyad University** -  I started studying the law department at Cadi Ayyad University<span class="spacer"></span>
 
