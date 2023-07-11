@@ -1,83 +1,101 @@
+
 <!--
 Welcome to resume.lol !
 
 This is the template you can use to get started.
 
-More documentation can be found in the docs section
->>> https://resume.lol/docs
+Easily remove personal info by using a variable follow with a second value and "||":
+
+@NAME=Real Name||Hidden Name
+
+and change @REDACTED to be true
+
+@REDACTED=true
 -->
 @REDACTED=false
-@NAME=My Name||Hidden Name
-@EMAIL=realemail@gmail.com||fake@email.com
-@PHONE=(123) 123-REAL||(555) 123-5555
-@LOCATION=Los Angeles, CA
-@WEBSITE=mysite.com||example.com
+@NAME=Yassine bouchama||Hidden
+@EMAIL=bouchamajob@gmail.com||bouchamajob@gmail.com
+@PHONE=+212638790915||+212638790915
+@LOCATION=Safi,Morocco||Safi,Morocco
+@LINKEDIN=linkedin.com/in/yassinebouchama||linkedin.com/in/yassinebouchama
+@GITHUB=github.com/SiskoWeb||github.com/SiskoWeb
 
 # {NAME}
 
-<div class="section headerInfo">
 
-- {EMAIL}
-- {PHONE}
-- [{WEBSITE}](https://{WEBSITE})
-- {LOCATION}
+{LOCATION} (Open to Remote or Office) | {PHONE} | {EMAIL} 
 
-</div>
+[{LINKEDIN}](https://{LINKEDIN}) | [{GITHUB}](https://{GITHUB})
 
-## Experience
+<div className="vertical-spacer"></div>
 
-### Software Engineer, TikTok <span class="spacer"></span> Jul 2021 &mdash; Present
+## Technical Skills
 
-You can include a blurb here explaining a bit about what you worked on 
+**Front End** | React, Javascript, NodeJS, Sass , Tailwind
 
-- Built out some feature on the For You Page
-- Worked on a feature related to User Profiles
-- Launched a feature that grew to 50M users in the first week
-- Mentored peer engineers on front-end development and best practices
+**Back End** | NodeJS, Expressjs, MongoDB
 
-Technologies: React, Preact, Javascript, TypeScript, styled-components, Storybook, CSS, Sass, Jest
+**Developer Tools** | pnpm, Git, npm, vite
 
-### Software Engineer, Spotify <span class="spacer"></span> Feb 2019 &mdash; Jun 2021
+**Testing**  | Jest
 
-- Worked on the front-end experience for the Year-In-Review feature
-- Implemented a backend API for Playlist Radio
-- Built the ML model for Discover Weekly playlists
+<div className="vertical-spacer"></div>
 
-Technologies: React, NextJS, Javascript, styled-components, Golang, Docker, AWS, Chrome Extensions
+## Experience & Projects
 
-### Software Engineer, Airbnb <span class="spacer"></span> Sept 2018 &mdash; Feb 2019
+### MernStack |  Cash On Delivery Store  <span class="spacer"></span><a class="link" href='https://github.com/SiskoWeb/Cash-On-Delivery-Store-MernStack' target='_blank'>Demo</a> 
 
-- Worked on a feature on the Hosts dashboard
+Express | MongoDB | React | Express | Sass<span class="spacer"></span>
+- A specialized cash-on-delivery e-commerce website with admin capabilities to add, edit, delete, and update products and categories, as well as track orders and offer additional features.
 
-<!-- Older resume bits can be commented out so that you can keep the info without deleting it -->
 
-<!-- ### <span>Software Engineering Intern, Google</span> <span>Mar 2017 &mdash; Sept 2017</span>
+<div className="vertical-spacer"></div>
 
-### <span>Software Engineering Intern, Curalate</span> <span>June 2016 &mdash; Sept 2016</span> -->
+### Front-End | Filmmaker Portfolio With Dashboard  <span class="spacer"></span><a class="link" href='https://github.com/SiskoWeb/Filmmaker-Portfolio-With-Dashboard'>Demo</a> 
 
+*Remote learning management system web application* <span class="spacer"></span> React | Firebase | Redux
+
+- Facilitated discussions with front-end team to assess client expectations and constructed Figma wireframe
+- Directed modeling of data and API endpoints to allow for seamless frontend integration to backend
+- Implemented server-side rendering with Next.js to improve page load time, achieving Lighthouse SEO score of 100
+
+<div className="vertical-spacer"></div>
+
+### Front-End | My Portfolio <span class="spacer"></span><a class="link" href='https://yassine.info/'>Demo</a> 
+
+*Single page e-commerce website* <span class="spacer"></span> JavaScript | React | Express | EC2 | Jest
+
+- Architected a front-end service of a ratings and reviews system to allow users to post reviews, view average ratings, search by keyword, and sort by helpfulness, relevance, date, and/or star ratings for a specific product
+- Improved web page quality by enabling text compression through Brotli and React Lazy Load, increasing Google Lighthouse performance by 132%
+- Tracked user interactions throughout the application with React higher-order components to reuse component logic
+
+<div className="vertical-spacer"></div>
+
+
+### MernStack | TodoList MernStack With Auth <span class="spacer"></span><a class="link" href='https://github.com/SiskoWeb/TodoList-MERNSTACK'>Demo</a> 
+
+*Remote learning management system web application* <span class="spacer"></span> JavaScript | React 
+
+- Facilitated discussions with front-end team to assess client expectations and constructed Figma wireframe
+- Directed modeling of data and API endpoints to allow for seamless frontend integration to backend
+- Implemented server-side rendering with Next.js to improve page load time, achieving Lighthouse SEO score of 100
+
+
+<div className="vertical-spacer"></div>
+
+### Front-End | Digital Agency LandingPage <span class="spacer"></span><a class="link" href='https://github.com/SiskoWeb/Digital-Agency-LandingPage'>Demo</a> 
+
+*Remote learning management system web application* <span class="spacer"></span> JavaScript | React 
+
+- Facilitated discussions with front-end team to assess client expectations and constructed Figma wireframe
+- Directed modeling of data and API endpoints to allow for seamless frontend integration to backend
+- Implemented server-side rendering with Next.js to improve page load time, achieving Lighthouse SEO score of 100
+
+<div className="vertical-spacer"></div>
+<!-- Move this section above Technical Skills if you're a student/new grad -->
 ## Education
 
-### University Name, Major, Bachelors of Science <span class="spacer"></span> 2014 &mdash; 2018
+**University of XXX** - Master of Science, Computer Science, GPA (only >= 3.7)<span class="spacer"></span>2023
 
-- Include GPA if you like
-- Teacher Assistant for 1 year (Intro to Programming and Client Side Web Development)
-- Resident Advisor for 2 years
+**University of XXX** - Bachelors of Science, Computer Science, GPA (only >= 3.7)<span class="spacer"></span>2022
 
-## Current Projects
-
-### resume.lol
-
-- Built a resume editor which converts Markdown and CSS into a beautifully rendered resume PDF
-- Implemented a WYSIWYG multi-page live preview of the resume from scratch
-- Exported this resume from the website :)
-
-## Skills
-
-- Code: React + hooks, NextJS, Javascript, TypeScript, NodeJS, CSS, styled-components, Golang
-- Tools: Docker, Redis, SQL, AWS, Puppeteer, Storybook, Jest, Shell, Tailwind
-
-## Achievements
-
-### Best Undergrad Research Project <span class="spacer"></span> 2018
-
-### Eagle Scout <span class="spacer"></span> 2012
